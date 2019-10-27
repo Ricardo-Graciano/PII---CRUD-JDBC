@@ -18,8 +18,8 @@ public class Conexao {
     public static String DRIVER = "com.mysql.jdbc.Driver";
     //COM DOCKER 192.168.99.100 SEM DOCKER 127.0.0.1
     public static String URL = "jdbc:mysql://127.0.0.1:3306/ueg?zeroDateTimeBehavior=convertToNull&serverTimezone=UTC";
-    public static String USER = "ricardo";
-    public static String PASS = "@Oi64258987321";
+    public static String USER = "";
+    public static String PASS = "";
     
     public static Connection getConnection(){
         try{            
